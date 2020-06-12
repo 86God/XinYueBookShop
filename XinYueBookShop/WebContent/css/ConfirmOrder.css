@@ -1,0 +1,392 @@
+html,body,form {
+    height: 100%;
+}
+body {
+    width: 100%;
+    background-color: whitesmoke;
+    margin: auto;
+}
+#container {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    margin: auto;
+    border-collapse: collapse;
+    border: none;
+}
+#container tr {
+    border: none;
+    border-bottom: thin solid whitesmoke;
+}
+#nav {
+    height: 3%;
+    background-color: firebrick;
+    margin: auto;
+}
+#slogan {
+    color: silver;
+    font: 1vw/7vh "Î¢ÈíÑÅºÚ";
+margin-left: 6%;
+letter-spacing: 0.2vw;
+float: left;
+clear: both;
+}
+.operate {
+    float: right;
+    margin-right: 5%;
+    width: 50%;
+}
+.operate td {
+    text-align: center;
+}
+.operate td:hover {
+    background-color: brown;
+}
+.operate a {
+    color: silver;
+    font: 1vw/6vh "Î¢ÈíÑÅºÚ";
+    letter-spacing: 0.2vw;
+    text-decoration: none;
+    margin-left: 1%;
+    text-align: center;
+}
+.operate a:hover {
+    color: white;
+}
+#main {
+    height: 88%;
+    margin: 0 auto;
+}
+.main1{
+    width: 90%;
+    height: 100%;
+    margin:0 auto;
+    border-collapse: collapse;
+    border: none;
+}
+.main-buy .one{
+    width: 100%;
+    height: 8%;
+    background-color: whitesmoke;
+    margin: auto;
+}
+.main-buy .one h1 {
+    font: italic bold 3.5vw/6vh "STCaiyun";
+    color: brown;
+    text-align: left;
+    letter-spacing: 0.4vw;
+    float: left;
+    clear: both;
+}
+.main-buy .two{
+    width: 100%;
+    height: 20%;
+}
+.two .address{
+    width: 100%;
+    height: 18%;
+}
+.address h2{
+    line-height: 25px;
+    color:black;
+    font-weight: 700;
+    font-size: 1.1vw;
+}
+.two .list{
+    width: 100%;
+    height: 67%;
+    margin-top: -10px;
+}
+
+.list .list1{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 237px;
+    margin: 0 14px 14px 0;
+    color: #666;
+    cursor: pointer;
+    border: 2px solid slategray;
+    margin-left: 5px;
+    margin-right: 25px;
+}
+.list2{
+    z-index: 2;
+    position: relative;
+    padding: 11px 15px;
+    overflow: hidden;
+}
+.list3{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    line-height: 18px;
+    font-weight: 700;
+}
+.list3 span{
+    vertical-align: top;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 18px;
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+    font-weight: 700;
+    color: #666;
+    cursor: pointer;
+}
+.list4{
+    height: 16%;
+    overflow: hidden;
+}
+.list4 span{
+    margin-right: 3px;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #666;
+    cursor: pointer;
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+    line-height: 1.5;
+}
+.list5 {
+    color: #c97;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+}
+.list6{
+    color: #666;
+    background: #fff;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 2px;
+    text-decoration: none;
+    z-index: 3;
+    cursor: pointer;
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+}
+.list7{
+    display: block;
+    background: #ccc;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 2px;
+    text-decoration: none;
+    z-index: 3;
+    cursor: pointer;
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+}
+
+.operations{
+    width: 100%;
+    height: 10%;
+    display: block;
+    position: relative;
+    margin-bottom: 35px;
+}
+.operations .add{
+	width: 8vw;
+	height: 5vh;
+	margin-left: 2vw;
+	border-radius: 0.5vw;
+	border: thin solid #9095ab;
+	color: #9095ab;
+	background-color: white;
+	outline: medium;
+	cursor: pointer;
+	float: left;
+	clear: both;
+}
+.operations input[type="text"] {
+	margin-top: 2vh;
+	margin-left: 2%;
+	width: 20vw;
+	height: 5vh;
+	border-radius: 0.5vw;
+	outline: medium;
+	float: right;
+	color: #9095ab;
+	border: thin solid #9095ab;
+}
+.operations .search {
+	margin-top: 2vh;
+	width: 10vw;
+	height: 6vh;
+	float: right;
+	color: #9095ab;
+	margin-right: 30vw;
+	border-radius: 0.5vw;
+	border: thin solid #9095ab;
+	background-color: white;
+	outline: medium;
+	cursor: pointer;
+}
+.operations input[type="button"]:hover{
+	background-color: #4d5e70;
+	color: white;
+}
+
+.two .part{
+	position: fixed;
+	display: none;
+	width: 40%;
+	height: 65%;
+	background-color: white;
+	border: thin solid #B3BCC5;
+	box-shadow: 3vw 3vw 6vw #B3BCC5;
+	border-radius: 0.5vw;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.two .part table{
+	margin-top: 1vw;
+	width: 100%;
+	height: 100%;
+	color: #354457;
+	font: 1.2vw/4vh "Î¢ÈíÑÅºÚ";
+}
+.two .part table .l{
+	text-align: end;
+	width: 32%;
+}
+.two .part table .r{
+	text-align: left;
+}
+.two .part table .r input[type="text"],
+.two .part table .r input[type="password"]{
+	width: 20vw;
+	height: 4.5vh;
+	border: thin solid #B3BCC5;
+	border-radius: 0.5vw;
+	outline: medium;
+}
+.two .part table .r input[type="file"]{
+	width: 25vw;
+	height: 4.5vh;
+	border: none;
+	outline: medium;
+	color: #354457;
+}
+.two .part table .r1{
+	text-align: left;
+}
+.two .part table .r1 input[type="text"]{
+	width: 8vw;
+	height: 4.5vh;
+	border: thin solid #B3BCC5;
+	border-radius: 0.5vw;
+	outline: medium;
+	float: left;
+	clear: both;
+}
+
+.two .part table input[type="submit"]{
+	width: 12vw;
+	height: 6vh;
+	border: thin solid #B3BCC5;
+	background-color: white;
+	border-radius: 0.5vw;
+	color: #354457;
+	outline: medium;
+}
+.two .part table input[type="submit"]:hover{
+	background-color: #354457;
+	color: white;
+}
+
+.three {
+    width: 100%;
+    height: 72%;
+}
+
+.three span{
+    line-height: 25px;
+    color:black;
+    font-weight: 700;
+    font-size: 1.1vw;
+}
+.three table {
+    margin-top: 2vh;
+    width: 100%;
+    color: firebrick;
+    font: 1vw/3vh "Î¢ÈíÑÅºÚ";
+    border-collapse: collapse;
+}
+
+.three table td {
+    border: thin solid silver;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    height: 8vh;
+}
+
+
+.three table .three2 img {
+    width: 10vw;
+    height: 30vh;
+}
+
+.three table .three2 a {
+    text-decoration: none;
+    color: firebrick;
+}
+
+.three table .three2 a:hover {
+    color: black;
+}
+
+.three table .three2 input[type="text"] {
+    width: 3vw;
+    height: 2.5vh;
+    text-align: center;
+}
+
+.three table .three3{
+    color: black;
+    font-size: 1vw;
+}
+
+.three table .three4 td {
+    height: 10vh;
+    text-align: right;
+}
+
+.three table .three4 .span {
+    font: 2vw/4vh "Î¢ÈíÑÅºÚ";
+    color: #800000;
+}
+
+.three table .three4 td input {
+    width: 10vw;
+    height: 6vh;
+    background-color: firebrick;
+    color: white;
+    font: 1vw/3vh "Î¢ÈíÑÅºÚ";
+    border-radius: 1vw;
+    margin-left: 3vw;
+}
+
+#footer {
+    height: 9%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+#footer p {
+    font: 1vw/2vh "Î¢ÈíÑÅºÚ";
+    color: gray;
+    margin-left: 6%;
+}

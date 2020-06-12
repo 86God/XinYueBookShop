@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee;http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>XinYueBookShop</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>page/dynamic/index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+    <param-name>userName</param-name>
+    <param-value>86_god</param-value>
+  </context-param>
+  
+  <!-- 配置过滤器对象名称,过滤器类的路径,初始化参数 -->
+  <filter>
+  	<filter-name>characterFilter</filter-name>
+  	<filter-class>com.company.project.filter.CharacterEncodingFilter</filter-class>
+  	<init-param>
+  		<param-name>author</param-name>
+  		<param-value>86_god</param-value>
+  	</init-param>
+  
+  </filter>
+  
+  <!-- 配置过滤器处理的作用域和类型  -->
+  <filter-mapping>
+  	<filter-name>characterFilter</filter-name>
+  	<url-pattern>*</url-pattern>
+  	<dispatcher>REQUEST</dispatcher>
+  </filter-mapping>
+  
+  
+  
+</web-app>

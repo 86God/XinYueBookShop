@@ -1,0 +1,834 @@
+/*public锛氭暣浣撳竷灞�锛屽鑸爮锛岄〉鑴�*/
+
+html,
+body,
+form {
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	background-color: whitesmoke;
+	margin: auto;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+	background-color: whitesmoke;
+	margin: auto;
+	border-collapse: collapse;
+	border: none;
+}
+
+#container tr {
+	border: none;
+	border-bottom: thin solid whitesmoke;
+}
+
+#nav {
+	height: 3%;
+	background-color: firebrick;
+	margin: auto;
+}
+
+#slogan {
+	color: silver;
+	font: 1vw/7vh "寰蒋闆呴粦";
+	margin-left: 6%;
+	letter-spacing: 0.2vw;
+	float: left;
+	clear: both;
+}
+
+.operate {
+	float: right;
+	margin-right: 5%;
+	width: 50%;
+}
+
+.operate td {
+	text-align: center;
+}
+
+.operate td:hover {
+	background-color: brown;
+}
+
+.operate a {
+	color: silver;
+	font: 1vw/6vh "寰蒋闆呴粦";
+	letter-spacing: 0.2vw;
+	text-decoration: none;
+	margin-left: 1%;
+	text-align: center;
+}
+
+.operate a:hover {
+	color: white;
+}
+
+#main {
+	height: 88%;
+	/*	background-color: red;*/
+	margin: 0 auto;
+}
+
+.main1 {
+	width: 90%;
+	height: 80%;
+	/*	background-color: gold;*/
+	margin: auto;
+	border-collapse: collapse;
+	border: none;
+}
+
+.main2 {
+	width: 50%;
+	height: 80%;
+	background-color: rgb(248, 233, 233);
+	margin: auto;
+	border-collapse: collapse;
+	border: none;
+}
+
+.main3 {
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	border-collapse: collapse;
+	border: none;
+}
+
+.main4 {
+	width: 65%;
+	height: 80%;
+	margin: auto;
+	border-collapse: collapse;
+	border: none;
+}
+
+#footer {
+	height: 9%;
+	background-color: white;
+	margin: auto;
+	text-align: center;
+}
+
+#footer p {
+	font: 1vw/2vh "寰蒋闆呴粦";
+	color: gray;
+	margin-left: 6%;
+}
+
+
+/*index鐣岄潰*/
+
+.main-index .top {
+	width: 100%;
+	height: 10%;
+	background-color: whitesmoke;
+	margin: auto;
+}
+
+.main-index .top h1 {
+	font: italic bold 3.5vw/6vh "STCaiyun";
+	color: brown;
+	text-align: left;
+	letter-spacing: 0.4vw;
+	float: left;
+	clear: both;
+}
+
+#search1 {
+	margin-top: 4vh;
+	margin-left: 2%;
+	width: 45%;
+	height: 45%;
+	float: right;
+	border: 0.2em solid firebrick;
+}
+
+#search2 {
+	margin-top: 4vh;
+	width: 10%;
+	height: 45%;
+	float: right;
+	color: white;
+	margin-right: 1%;
+	font: 1.5vw/5vh "寰蒋闆呴粦";
+	background-color: firebrick;
+	border-color: firebrick;
+}
+
+.main-index #bottom {
+	width: 100%;
+	height: 90%;
+	margin: auto;
+}
+
+.main-index .bottom #left {
+	width: 15%;
+	background-color: white;
+	float: left;
+	clear: both;
+	text-align: center;
+}
+
+.main-index .bottom .left .h2 {
+	font: 1.6vw/8vh "寰蒋闆呴粦";
+	color: white;
+	background-color: brown;
+	height: 6%;
+}
+
+.main-index .bottom .left table {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	border-collapse: collapse;
+}
+
+.main-index .bottom .left a {
+	font: 1.35vw/8vh "寰蒋闆呴粦";
+	text-decoration: none;
+	color: black;
+}
+
+.main-index .bottom .left a:hover {
+	color: brown;
+	text-decoration: underline;
+}
+
+.main-index .bottom .left .class:hover {
+	background-color: whitesmoke;
+}
+
+.main-index .bottom .right {
+	width: 85%;
+	float: left;
+}
+
+.main-index .bottom .img1 img {
+	width: 100%;
+	height: 20%;
+}
+
+.main-index .bottom .right h2 {
+	font: bold 1.6vw/3vh "寰蒋闆呴粦";
+	letter-spacing: 0.5vw;
+	margin-left: 2%;
+}
+
+.main-index .bottom .right hr {
+	width: 100%;
+	border: none;
+	border-top-width: 0.05em;
+	border-top-style: solid;
+	border-top-color: gainsboro;
+	margin-bottom: 4vh;
+}
+
+.main-index .bottom .right table {
+	width: 98%;
+	margin-left: 3vw;
+}
+
+.main-index .bottom .right table img {
+	width: 65%;
+	height: 25%;
+	background-color: silver;
+}
+
+.main-index .bottom .right table .o {
+	font: 1.5vw/2vh "寰蒋闆呴粦";
+}
+
+.main-index .bottom .right table .p {
+	font: 1.2vw/1.5vh "寰蒋闆呴粦";
+	color: gray;
+}
+
+.main-index .bottom .right table .q {
+	font: 1.2vw/1.5vh "寰蒋闆呴粦";
+	color: gray;
+	margin-bottom: 8vh;
+}
+
+.main-index .bottom .right table .right span {
+	color: red;
+	font-size: 1.5vw;
+}
+
+
+/*login&enrol鐣岄潰*/
+
+.main-login .main2 h2 {
+	color: white;
+	font: 1.5vw/6vh "寰蒋闆呴粦";
+	text-align: center;
+	margin: auto;
+	background-color: firebrick;
+}
+
+.main-login .main2 .r {
+	color: firebrick;
+	font: 1.5vw/4vh "寰蒋闆呴粦";
+	margin-left: 5vw;
+	margin-top: 2.5vw;
+}
+
+.main-login .r input {
+	width: 24vw;
+	height: 6vh;
+	margin-top: 3vh;
+	margin-left: 2vw;
+	border-radius: 10px;
+	border: 1px solid #aaa;
+}
+
+.main-login .r a {
+	text-decoration: none;
+	color: brown;
+	margin-left: 5vw;
+	margin-right: 8vw;
+}
+
+.main-login input[type="submit"] {
+	width: 24vw;
+	height: 7vh;
+	background-color: brown;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-size: 1.5vw;
+	margin-left: 2vw;
+}
+
+.main-login input[type="button"] {
+	width: 14vw;
+	height: 6vh;
+	background-color: brown;
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+	border: none;
+	color: #FFF;
+	font-size: 1.2vw;
+	margin-left: 22vw;
+}
+
+.main-login input[type="button"]:hover,
+input[type="submit"]:hover {
+	background-color: #800000;
+}
+
+.main-login input[type="button"]:active,
+input[type="submit"]:active {
+	background-color: #800000;
+}
+
+
+/*PerInfo鐣岄潰*/
+
+.main-PerInfo .top {
+	width: 100%;
+	height: 10%;
+	background-color: whitesmoke;
+	margin: auto;
+}
+
+.main-PerInfo .top h1 {
+	font: italic bold 3.5vw/6vh "STCaiyun";
+	color: brown;
+	text-align: center;
+	letter-spacing: 0.4vw;
+	float: left;
+	clear: both;
+}
+
+.main-PerInfo .top span {
+	font: italic bold 2vw/6vh "寰蒋闆呴粦";
+}
+
+.main-PerInfo .bottom {
+	width: 100%;
+	height: 80%;
+}
+
+.main-PerInfo .bottom hr {
+	border: none;
+	border-top: thin solid silver;
+}
+
+.main-PerInfo .left {
+	width: 22%;
+	float: left;
+	clear: both;
+}
+
+.main-PerInfo .left h2 {
+	font: 1.8vw/6vh "寰蒋闆呴粦";
+	color: white;
+	background-color: firebrick;
+	text-align: center;
+}
+
+.main-PerInfo .left ul {
+	width: 100%;
+	list-style-type: circle;
+}
+
+.main-PerInfo .left li {
+	width: 11vw;
+	height: 5vh;
+	margin-left: 3vw;
+}
+
+.main-PerInfo .left a {
+	color: brown;
+	font: 1.2vw/5vh "寰蒋闆呴粦";
+	letter-spacing: 0.4vw;
+	text-decoration: none;
+}
+
+.main-PerInfo .left a:hover {
+	color: black;
+}
+
+.main-PerInfo .right {
+	width: 78%;
+	float: right;
+}
+
+.main-PerInfo .right h2 {
+	font: 1.2vw/4vh "寰蒋闆呴粦";
+	color: brown;
+	text-align: left;
+	margin-left: 3.5vw;
+}
+
+.main-PerInfo .right table {
+	width: 57vw;
+	height: 58vh;
+	margin-left: 4.2vw;
+	border: thin solid silver;
+	font: 1.5vw/5vh "寰蒋闆呴粦";
+	letter-spacing: 0.04vw;
+	color: brown;
+}
+
+.main-PerInfo .right .l {
+	width: 15vw;
+	text-align: right;
+}
+
+.main-PerInfo .right .t {
+	width: 18vw;
+	height: 3.5vh;
+	border: thin solid silver;
+}
+
+.main-PerInfo .right .t1 {
+	width: 30vw;
+	height: 4vh;
+	border: thin solid silver;
+}
+
+.main-PerInfo .right .t1 {
+	width: 30vw;
+	height: 4vh;
+	border: thin solid silver;
+}
+
+.main-PerInfo .right #eva {
+	width: 40vw;
+	height: 10vh;
+	border: thin solid silver;
+}
+
+.main-PerInfo .right .t,
+.t1,
+.eva {
+	color: brown;
+	font-size: 0.8vw;
+	letter-spacing: 0.2vw;
+}
+
+.main-PerInfo .right .o {
+	width: 12vw;
+	height: 6vh;
+	background-color: brown;
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+	border: none;
+	color: #FFF;
+	font-size: 1.2vw;
+}
+
+.main-PerInfo .right input[type="reset"] {
+	margin-left: 10vw;
+	float: left;
+	clear: both;
+}
+
+.main-PerInfo .right input[type="submit"] {
+	float: right;
+	margin-right: 1.1vw;
+}
+
+.main-PerInfo .right input[type="submit"]:hover {
+	background-color: #800000;
+}
+
+.main-PerInfo .right input[type="reset"]:hover {
+	background-color: #800000;
+}
+
+
+/*service鐣岄潰*/
+
+.main-PerInfo .bottom2 h3 {
+	font: bold 1.5vw/2vh "寰蒋闆呴粦";
+}
+
+.main-PerInfo .bottom2 p {
+	font: 1.2vw/3vh "寰蒋闆呴粦";
+}
+
+.main-PerInfo .bottom2 #eva2 {
+	width: 60vw;
+	height: 15vh;
+	border: thin solid silver;
+}
+
+.main-PerInfo .bottom2 .tel {
+	width: 20vw;
+	height: 4vh;
+	border: thin solid silver;
+}
+
+.main-PerInfo .bottom2 input[type="submit"] {
+	width: 20vw;
+	height: 7vh;
+	background-color: brown;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-size: 1.5vw;
+}
+
+.main-PerInfo .bottom2 input[type="submit"]:hover {
+	background-color: #800000;
+}
+
+
+/*order鐣岄潰*/
+
+#order-right .head {
+	height: 4vh;
+}
+
+#order-right .head td {
+	text-align: center;
+}
+
+#order-right .head td input {
+	border: thin solid white;
+	background-color: firebrick;
+	border-radius: 1vw;
+	color: white;
+	width: 11.5vw;
+	height: 4.8vh;
+}
+
+#order-right .list td table {
+	margin: auto;
+	width: 100%;
+	font: 5px/6px "寰蒋闆呴粦";
+}
+
+#order-right .list td table .first {
+	height: 5vh;
+}
+
+#order-right .list td table .second iframe {
+	width: 100%;
+	height: 40vh;
+}
+
+#order-right .list td table .third {
+	height: 5vh;
+	float: right;
+}
+
+#order-right .list td table #one {
+	color: red;
+}
+
+
+/*shopping-cart鐣岄潰*/
+
+.main-shop .top {
+	width: 100%;
+	height: 8%;
+	background-color: whitesmoke;
+	margin: auto;
+}
+
+.main-shop .top h1 {
+	font: italic bold 3.5vw/6vh "STCaiyun";
+	color: brown;
+	text-align: center;
+	letter-spacing: 0.4vw;
+	float: left;
+	clear: both;
+}
+
+.main-shop .top span {
+	font: italic bold 2vw/6vh "寰蒋闆呴粦";
+}
+
+.main-shop .bottom {
+	width: 100%;
+	height: 92%;
+}
+
+#shop {
+	width: 100%;
+	height: 100%;
+}
+
+#shop table {
+	margin-top: 0vh;
+	width: 100%;
+	color: firebrick;
+	font: 1vw/3vh "寰蒋闆呴粦";
+	border-collapse: collapse;
+}
+
+#shop table td {
+	border: thin solid silver;
+	text-align: center;
+	border-left: none;
+	border-right: none;
+}
+
+#shop table .list img {
+	width: 10vw;
+	height: 30vh;
+}
+
+#shop table .list a {
+	text-decoration: none;
+	color: firebrick;
+}
+
+#shop table .list a:hover {
+	color: black;
+}
+
+#shop table .list input[type="text"] {
+	width: 3vw;
+	height: 2.5vh;
+	text-align: center;
+}
+
+#shop table .foot td {
+	text-align: right;
+}
+
+#shop table .foot .span {
+	font: 2vw/4vh "寰蒋闆呴粦";
+	color: #800000;
+}
+
+#shop table .foot td input {
+	width: 10vw;
+	height: 6vh;
+	background-color: firebrick;
+	color: white;
+	font: 1vw/3vh "寰蒋闆呴粦";
+	border-radius: 1vw;
+	margin-left: 3vw;
+}
+
+
+/*help-center鐣岄潰*/
+
+.main-PerInfo #bottom-help h2 {
+	font: bold 2vw/3vh "寰蒋闆呴粦";
+	text-align: center;
+}
+
+.main-PerInfo #bottom-help img {
+	width: 70vw;
+	height: 110vh;
+	margin: auto;
+	border: 0.5vw solid gainsboro;
+	border-radius: 1vw;
+}
+
+
+/*details鐣岄潰*/
+
+.bottom-detail{
+	background-color: white;
+}
+.bottom-detail .left{
+	width: 35%;
+	height: 100%;
+	float: left;
+	clear: both;
+	text-align: center;
+}
+.bottom-detail .left img{
+	width: 15vw;
+	height: 50vh;
+	margin-top: 30%;
+}
+.bottom-detail .right{
+	width: 65%;
+	float: left;
+}
+.bottom-detail .right .title{
+	width: 100%;
+	height: 10%;
+	font: 1vw/3vh "寰蒋闆呴粦";
+	color: gray;
+}
+.bottom-detail .right .title h5{
+	font: 2vw/3vh "寰蒋闆呴粦";
+	color: black;
+}
+.bottom-detail .right .detail{
+	width: 100%;
+	height: 60%;
+	border: none;
+	border-top: thin solid silver;
+	border-bottom: thin dotted silver;
+	font: 1vw/2vh "寰蒋闆呴粦";
+}
+.bottom-detail .right .detail tr{
+	height: 4vh;
+}
+.bottom-detail .right .detail .f{
+	height: 8vh;
+}
+.bottom-detail .right .detail .f .f1{
+	width: 10%;
+	color: gray;
+	font:  1.3vw/8vh "寰蒋闆呴粦";
+}
+.bottom-detail .right .detail .f .f2{
+	color: darkred;
+	font:  1.5vw/8vh "寰蒋闆呴粦";
+}
+.bottom-detail .right .detail .f .f3{
+	width: 10%;
+	color: gray;
+	font:  1vw/8vh "寰蒋闆呴粦";
+}
+.bottom-detail .right .detail .f .f4{
+	width: 28vw;
+	height: 5vh;
+}
+.bottom-detail .right .detail .f .f5{
+	width: 23vw;
+	height: 6vh;
+	border: thin solid silver;
+	border-radius: 0.4vw;
+	background-color: white;
+	color: gray;
+	cursor: pointer;
+}
+.bottom-detail .right .detail .f .f6{
+	color: red;
+	font: 1vw "寰蒋闆呴粦";
+}
+.bottom-detail .right .detail2{
+	width: 60%;
+	height: 30%;
+	float: left;
+}
+.bottom-detail .right .detail2 .m1{
+	height: 50%;
+	font: 1vw "寰蒋闆呴粦";
+}
+.bottom-detail .right .detail2 .m2{
+	width: 16%;
+	color: gray;
+	font:  1vw/8vh "寰蒋闆呴粦";
+}
+.bottom-detail .right .detail2 .m3{
+	width: 30%;
+}
+.bottom-detail .right .detail2 .m3 .crease{
+	width: 1.5vw;
+	height: 3.5vh;
+	border: thin solid silver;
+	background-color: whitesmoke;
+	border-radius: 0.3vw;
+	float: left;
+}
+.bottom-detail .right .detail2 .m3 .num{
+	width: 6vw;
+	height: 3.5vh;
+	border: thin solid silver;
+	background-color: white;
+	border-radius: 0.3vw;
+	float: left;
+}
+.bottom-detail .right .detail2 .m4 input{
+	float: left;
+	width: 12vw;
+	height: 6vh;
+	border: none;
+	background-color: firebrick;
+	border-radius: 0.6vw;
+	color: white;
+	font: 1vw/2vh "寰蒋闆呴粦";
+	cursor: pointer;
+}
+.bottom-detail .right .detail2 .m4 input:hover{
+	background-color: #800000;
+}
+.bottom-detail .right .detail2 .m4 .btn1{
+	margin-left: 5vw;
+}
+
+
+#settle-accounts-tr{
+	width: 100%;
+	background-color: black;
+	height: 60px;
+	bottom: 0px;
+	opacity: .5;
+	position: fixed;
+	z-index: 3;
+	float: right;
+}
+
+#settle-accounts-td{
+	float: right;
+	position: relative;
+	right: 200px;
+	height: 60px;
+}
+
+#settle-accounts-span{
+	right: 60px;
+	position: relative;
+	top: 10px;
+}
+
+#settle-accounts-button{
+	position: relative;
+	top: 15px;
+	height: 30px;
+}
+
+#left td{
+	padding-left: 20px;
+}
